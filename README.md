@@ -2,7 +2,7 @@
 
 A simple web-based game that asks the user to try and correctly answer arithmetic questions as fast as possible.
 
-![alt text](https://github.com/dmitryou/arithmetic-game/blob/main/screenshots/Game.jpeg?raw=true) { width=50% }
+![alt text](https://github.com/dmitryou/arithmetic-game/blob/main/screenshots/Game.jpeg?raw=true) { width=20% }
 ![alt text](https://github.com/dmitryou/arithmetic-game/blob/main/Game.jpeg?raw=true)
 
 ## Backend for this application is Python server runned with poetry
