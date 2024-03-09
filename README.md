@@ -2,9 +2,6 @@
 
 A simple web-based game that asks the user to try and correctly answer arithmetic questions as fast as possible.
 
-![alt text](https://github.com/dmitryou/arithmetic-game/blob/main/screenshots/Game.jpeg?raw=true) { width=20% }
-![alt text](https://github.com/dmitryou/arithmetic-game/blob/main/Game.jpeg?raw=true)
-
 ## Backend for this application is Python server runned with poetry
 
 1. Use backend/arithmetic_web_game.zip file to extract and run server in python:
@@ -36,5 +33,10 @@ A simple web-based game that asks the user to try and correctly answer arithmeti
 4. Quit word Case sensetive to work with : QUIT,Quit,quit
 5. If we want to leave only mobile version of the game, we need to remove static and templates folders from the server side.
 6. I don't see any logic that should be moved from server side, since we have sessions and potensially many parallel users. However if this game only for user himself and not for multiple users and leaderboards, whole game logic could be moved into the mobile app, and you could store scores in local storage. In such case it's could be mobile app without server side.
+
+
+## Screenshots
+![alt text](https://github.com/dmitryou/arithmetic-game/blob/main/screenshots/Intro.jpeg?raw=true)
+![alt text](https://github.com/dmitryou/arithmetic-game/blob/main/screenshots/Game.jpeg?raw=true)
 
 
